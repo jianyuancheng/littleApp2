@@ -1,3 +1,5 @@
+// 修改试试
+
 // pages/user/user.js
 var _app = getApp()
 Page({
