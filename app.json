@@ -7,6 +7,15 @@
     "pages/my/my"
     
   ],
+  "subPackages": [
+    {
+      "root":"modules/science",
+      "name":"supervise",
+      "pages": [
+        "pages/science001/science001"
+      ]
+    }
+  ],
   "window":{
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle":"light",
@@ -52,6 +61,18 @@
 }]
   },
   
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  
+  "sitemapLocation": "sitemap.json",
+
+
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index"
+  }
 }

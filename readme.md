@@ -1,13 +1,7 @@
-找不到package.json??? miao 0803
+miao0806 app.json删除了一句style v2
 
+miao0806 引入
+"usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  }
 
-
-
-
-    "packNpmManually": true,//原来是false 方括号原来为空
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./miniprogram/"
-      }
-    ],

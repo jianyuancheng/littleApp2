@@ -1,14 +1,80 @@
 <!--pages/science/science.wxml-->
 <!-- <text>pages/science/science.wxml</text> -->
 
-<!--index.wxml-->
 <swiper autoplay>
   <!-- 轮播图 -->
   <swiper-item><image mode="widthFix" src="https://wx4.sinaimg.cn/large/671f3cbbgy1gmgmtfmbzaj23402c0e82.jpg" style="width: 750rpx; height: 58rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image></swiper-item>
   
   <swiper-item><image mode="widthFix" src="https://wx4.sinaimg.cn/thumb300/671f3cbbgy1gi38ac5993j21900u0n3j.jpg"></image></swiper-item>
 </swiper>
-<view class="container">
+
+<van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 14px;"
+>
+也爱你噢
+</van-divider>
+
+
+<van-search
+  value="{{ value }}"
+  shape="round"
+  background="#4fc08d"
+  placeholder="搜索你想了解的知识"
+/>
+
+
+<van-divider
+  contentPosition="center"
+  customStyle="color: #1989fa; border-color: #1989fa; font-size: 14px;"
+>
+这是一条不伦不类的分割线
+</van-divider>
+
+
+<van-card
+  
+  desc="描述信息！！！这条点击左图可以跳转"
+  title="科普1号"
+  thumb="https://wx4.sinaimg.cn/mw690/3ef300a3gy1gt53vckhn3j23332bbe82.jpg"
+  thumb-link="/modules/science/pages/science001/science001"
+  
+/>
+
+<van-card
+
+  desc="描述信息以后谁来当小编呢，心理协会？"
+  title="科普2号"
+  thumb="https://wx4.sinaimg.cn/mw690/3ef300a3gy1gt53vckhn3j23332bbe82.jpg"
+/>
+<van-card
+
+  desc="描述信息哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+  title="科普3号"
+  thumb="https://wx4.sinaimg.cn/mw690/3ef300a3gy1gt53vckhn3j23332bbe82.jpg"
+/>
+<van-card
+
+  tag="标签"
+
+  desc="描述信息"
+  title="科普4号"
+  thumb="https://wx4.sinaimg.cn/mw690/3ef300a3gy1gt53vckhn3j23332bbe82.jpg"
+>
+  <view slot="footer">
+    <van-button size="mini">按钮</van-button>
+    <van-button size="mini">按钮</van-button>
+  </view>
+</van-card>
+
+
+
+
+
+
+
+
+<!-- <view class="container">
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}" calss="userinfo-opendata">
       <view class="userinfo-avatar" bindtap="bindViewTap">
@@ -30,4 +96,4 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
-
+ -->

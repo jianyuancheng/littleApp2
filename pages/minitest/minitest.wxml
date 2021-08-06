@@ -1,2 +1,12 @@
 <!--pages/minitest/minitest.wxml-->
-<text>pages/minitest/minitest.wxml</text>
+<van-grid column-num="3" border="{{ false }}">
+  <van-grid-item use-slot wx:for="{{ 3 }}" wx:for-item="index">
+    <image
+      style="width: 100%; height: 90px;"
+      src="https://wx4.sinaimg.cn/mw690/3ef300a3gy1gt53vckhn3j23332bbe82.jpg"
+      
+    />
+  </van-grid-item>
+</van-grid>
+
+
